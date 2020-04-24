@@ -1,3 +1,5 @@
+const path = require('path');
+
 const config = {
   projectName: 'zhihu',
   date: '2020-4-23',
@@ -30,6 +32,9 @@ const config = {
     ]
   },
   defineConstants: {
+  },
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src')
   },
   mini: {
     postcss: {
