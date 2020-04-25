@@ -36,12 +36,12 @@ class App extends Component {
 
   config: Config = {
     pages: [
-      "pages/login/login",
-      "pages/regist/regist",
       "pages/config/config",
       "pages/admin/admin",
+      "pages/forgetPassword/forgetPassword",
+      "pages/regist/regist",
+      "pages/login/login",
       "pages/table/table",
-      "pages/findPassword/findPassword"
     ],
     window: {
       backgroundColor: "#FFF",
