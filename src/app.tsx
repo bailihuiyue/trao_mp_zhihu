@@ -36,6 +36,7 @@ class App extends Component {
 
   config: Config = {
     pages: [
+      "pages/demo/demo",
       "pages/config/config",
       "pages/admin/admin",
       "pages/forgetPassword/forgetPassword",
